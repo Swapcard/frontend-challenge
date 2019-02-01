@@ -10,7 +10,7 @@ You should be able to locally set/unset artists as "favorites".
 The project must be versioned, hosted and publicly available on a git forge.
 It would be great if the project can run online ([herokuapp](https://www.heroku.com) / [netlify](https://www.netlify.com)) but it's not mandatory.
 
-_Using GraphQL is a must, but if you can't, feel free to use another similar REST API_
+_Using GraphQL is a must, but if you can't, feel free to use another, similar REST API_
 
 ## The product you must build
 
