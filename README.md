@@ -44,7 +44,7 @@ you can of course add other part yourself instead of the list below.
 
 - React (mandatory)
 - For handling data fetching,
-  you can work with `react-apollo`, `react-delay`
+  you can work with `react-apollo`, `react-relay`
   or your own implementation of fetch using graphql.
 - For handling local data (user "favorite" artists),
   you can work with redux, react context, localStorage, apollo local schema, etc...
