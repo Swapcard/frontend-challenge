@@ -4,35 +4,35 @@
 
 ## Introduction
 
-Goal is to build a small app to search musical artists from this GraphQL API endpoint <https://graphbrainz.herokuapp.com>.
+The goal is to build a small app to search musical artists from this GraphQL API endpoint <https://graphbrainz.herokuapp.com>.
 No authentication is required.
 You should be able to locally set/unset artists as "favorites".
 The project must be versioned, hosted and publicly available on a git forge.
-It would be great that the project run online ([herokuapp](https://www.heroku.com) / [netlify](https://www.netlify.com)) but it's not mandatory.
+It would be great if the project can run online ([herokuapp](https://www.heroku.com) / [netlify](https://www.netlify.com)) but it's not mandatory.
 
-_Using GraphQL is a must have, but if you can't, feel free to use another similar REST API_
+_Using GraphQL is a must, but if you can't, feel free to use another, similar REST API_
 
 ## The product you must build
 
 - **Home page** :
-  List artists depending of a search
+  List artists depending on searches
   (
-  watchout empty search will throw an error from the api,
-  so make a UI that display an empty view when no search
-  and the results list if search is filled
+  watchout: empty searches will throw an error from the api,
+  so make a UI that displays an empty view when there is no search
+  and the results list when the search is filled
   )
 - **Artist details page** :
-  display in a "nice" UI primary informations of the selected artist and a small list of some of the artist's releases.
-  From this view, the user must be able to set/unset an artist as favorites.
+  display informations of the selected artist and a small list of some of the artist's releases.
+  From this view, the user must be able to set/unset an artist as a favorite.
 - **Layout** (displayed on both pages) :
   - Add a way to go back from a details to the list (breadcrumb, menu, buttons, etc...).
-  - Sidebar : That will contain your "favorites" artists.
+  - Sidebar : To contain your "favorite" artists.
 
 ## Nice to have
 
 This part is not mandatory,
-it's only some suggestions to improve your test,
-you can of course add other part yourself instead of the list below.
+it's only some suggestions to improve your test.
+Of course, you can add other parts that you see fit.
 
 - Debounce your search to prevent api flood.
 - Add a toast `{{artist}} has been added to your favorites`.
